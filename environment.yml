@@ -1,0 +1,17 @@
+name: tomoqa
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - numpy
+  - pandas
+  - scipy
+  - matplotlib
+  - seaborn
+  - jupyter
+  - scikit-learn
+  - pytest
+  - pip
+  - pip:
+      - skrebate
+      - mrmr-selection
